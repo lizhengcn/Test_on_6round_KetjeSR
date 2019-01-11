@@ -1,6 +1,9 @@
 Python program
+
 Search and verification of the 33-dimension cube satisfying the rules in first two rounds:
+
 1. search：KetjeSR6rCubeSearch.py (gurobi)
+
 2. verification: KetjeSR6rCubeVerification2Round.py (sagemath)
 
 C++ program
