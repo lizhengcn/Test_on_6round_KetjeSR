@@ -169,7 +169,7 @@ int main()
 {
 	clock_t start,finish;
 	start = clock();
-    UINT16 InitialState[25]={0};
+    	UINT16 InitialState[25]={0};
 	UINT16 TempState[25]={0};
 	UINT16 FinalState[2]={0};
 	UINT16 Key[9]={0};
@@ -240,7 +240,7 @@ int main()
 
 
 	FILE *f;
-	f=fopen("result.txt","w+b");
+	f=fopen("resultv2.txt","w+b");
 	srand(200);
 	fprintf(f,"128-bit key:\n");
 
