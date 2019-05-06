@@ -242,7 +242,7 @@ int main()
 
 
 	FILE *f;
-	f=fopen("result429.txt","w+b");
+	f=fopen("resultv1.txt","w+b");
 	srand(100);
 	fprintf(f,"128-bit key:\n");
 
