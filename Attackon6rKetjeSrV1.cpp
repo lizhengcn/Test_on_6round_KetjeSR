@@ -169,7 +169,7 @@ int main()
 {
 	clock_t start,finish;
 	start = clock();
-    UINT16 InitialState[25]={0};
+    	UINT16 InitialState[25]={0};
 	UINT16 TempState[25]={0};
 	UINT16 FinalState[2]={0};
 	UINT16 Key[9]={0};
