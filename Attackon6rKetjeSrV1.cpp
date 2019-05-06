@@ -242,7 +242,7 @@ int main()
 
 
 	FILE *f;
-	f=fopen("result.txt","w+b");
+	f=fopen("result429.txt","w+b");
 	srand(100);
 	fprintf(f,"128-bit key:\n");
 
@@ -303,14 +303,14 @@ int main()
 	for(i=0;i<25;i++){
 		InitialState[i]=0;
 	}
-	int ink[9]={0,6,12,18,24,3,9,10,16};
+	
 	for(i=0;i<9;i++){
-		InitialState[ink[i]]=Key[i];
+		InitialState[i]=Key[i];
 	}
 
 	
-	InitialState[21]|=((UINT16)0x1<<14);
-	InitialState[21]|=((UINT16)0x1<<15);
+	InitialState[24]|=((UINT16)0x1<<14);
+	InitialState[24]|=((UINT16)0x1<<15);
 
 
 
